@@ -12,6 +12,10 @@
 
 # now use controller to pull through method from model
 get '/' do
-  @spotifyCall = SpotifyApi.new.response
+  # @spotifyCall = SpotifyApi.new.response
+  # allows me to now reach into object and pull specific data out bsed on object string
+  @spotifyGenres = SpotifyApi.new.genres
+  @spotifyName = SpotifyApi.new.name
+  @spotifyFollowers = SpotifyApi.new.followers
   erb :home
 end
