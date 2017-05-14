@@ -1,5 +1,5 @@
 require "sinatra"
-require "sinatra/reloader" if development?
+# require "sinatra/reloader" if development?
 require 'httparty'
 
 require_relative "controllers/statics_controller"
