@@ -25,6 +25,9 @@ I felt for building something quite simple to display an api's data creating a n
 
 - At this point, you want to separate out the data and grab only the elements from Spotify's data that you need.
 
+#update
+- may 14th 2017 - added example for how to dive into spotify api call and retrieve specifc data
+
 
 # Next Goal?
 
